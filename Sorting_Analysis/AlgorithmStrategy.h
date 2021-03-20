@@ -1,0 +1,13 @@
+//
+// Created by Elias Mann on 3/19/21.
+//
+
+#ifndef SORTING_ANALYSIS_ALGORITHMSTRATEGY_H
+#define SORTING_ANALYSIS_ALGORITHMSTRATEGY_H
+
+
+class AlgorithmStrategy {
+
+};
+
+#endif //SORTING_ANALYSIS_ALGORITHMSTRATEGY_H

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o"
   "CMakeFiles/Sorting_Analysis.dir/main.cpp.o"
   "Sorting_Analysis"
   "Sorting_Analysis.pdb"

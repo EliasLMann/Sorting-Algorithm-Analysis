@@ -3,4 +3,4 @@ project(Sorting_Analysis)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Sorting_Analysis main.cpp)
+add_executable(Sorting_Analysis main.cpp AlgorithmStrategy.cpp AlgorithmStrategy.h)

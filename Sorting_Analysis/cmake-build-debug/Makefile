@@ -123,6 +123,33 @@ Sorting_Analysis/fast:
 	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/build
 .PHONY : Sorting_Analysis/fast
 
+AlgorithmStrategy.o: AlgorithmStrategy.cpp.o
+
+.PHONY : AlgorithmStrategy.o
+
+# target to build an object file
+AlgorithmStrategy.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o
+.PHONY : AlgorithmStrategy.cpp.o
+
+AlgorithmStrategy.i: AlgorithmStrategy.cpp.i
+
+.PHONY : AlgorithmStrategy.i
+
+# target to preprocess a source file
+AlgorithmStrategy.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.i
+.PHONY : AlgorithmStrategy.cpp.i
+
+AlgorithmStrategy.s: AlgorithmStrategy.cpp.s
+
+.PHONY : AlgorithmStrategy.s
+
+# target to generate assembly for a file
+AlgorithmStrategy.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.s
+.PHONY : AlgorithmStrategy.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Sorting_Analysis"
+	@echo "... AlgorithmStrategy.o"
+	@echo "... AlgorithmStrategy.i"
+	@echo "... AlgorithmStrategy.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

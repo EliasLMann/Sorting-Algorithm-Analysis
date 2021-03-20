@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/AlgorithmStrategy.cpp">
+			<Option target="Sorting_Analysis"/>
+		</Unit>
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/AlgorithmStrategy.h">
+			<Option target="Sorting_Analysis"/>
+		</Unit>
 		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/main.cpp">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
