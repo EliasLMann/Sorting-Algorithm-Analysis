@@ -32,9 +32,12 @@ public:
     AlgorithmStrategy();
     ~AlgorithmStrategy();
     void Load(string path);
-    virtual void Execute() = 0;
+    void ExecuteAll();
+    virtual void Execute(int* dataSet,int size, string name) = 0;
     void Stats();
+    void Handoff(AlgorithmStrategy* nextAlgo, int dataSize);
 protected:
+    string sortTitle;
     map<string, const float> mSortTimes;
     vector<DSPack> mDatasets;
 };

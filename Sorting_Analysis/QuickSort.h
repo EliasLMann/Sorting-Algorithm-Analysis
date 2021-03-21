@@ -8,7 +8,8 @@
 
 class QuickSort : public AlgorithmStrategy{
 public:
-    void Execute();
+    QuickSort():AlgorithmStrategy(){sortTitle = "QUICK SORT: ";}
+    void Execute(int* dataSet,int size, string name);
 private:
     void Sort(int* arr, int size);
     int partition(int arr[], int low, int high);

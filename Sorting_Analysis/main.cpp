@@ -33,8 +33,9 @@ int main() {
     //executes all algorithms
     for(int i = 0; i < 6; i++){
         sortingAlgos[i]->Load(DATASET_PATH);
-        sortingAlgos[i]->Execute();
+        sortingAlgos[i]->ExecuteAll();
         sortingAlgos[i]->Stats();
     }
+
     return 0;
 }

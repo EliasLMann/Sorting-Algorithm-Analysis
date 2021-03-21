@@ -55,10 +55,8 @@ void AlgorithmStrategy::Load(string path) {
 void AlgorithmStrategy::Stats() {
     map<string, const float>::iterator sortTimeIter;
 
-    //setting the itereator to the last element in the map to print the name of the given sorting algorithm
-    sortTimeIter = mSortTimes.end();
-    sortTimeIter--;
-    cout << sortTimeIter->first <<endl << endl;
+    //printing title of given sorting algorithm
+    cout << sortTitle <<endl << endl;
 
     //printing all sizes of randomly sorted elements
     cout << "Randomly Sorted Integers:" <<endl;
@@ -125,3 +123,21 @@ void AlgorithmStrategy::Stats() {
     }
     cout << endl;
 }
+
+void AlgorithmStrategy::ExecuteAll() {
+    //calls execute of every dataset
+    for(int i = 0; i < mDatasets.size() ; i++){
+        Execute(mDatasets.at(i).data,mDatasets.at(i).size,mDatasets.at(i).name);
+    }
+}
+
+void AlgorithmStrategy::Handoff(AlgorithmStrategy *nextAlgo, int dataSize) {
+    for(int i; i <mDatasets.size(); i++){
+        if(mDatasets.at(i).size == 1000){
+            int first[1000-dataSize];
+            int second[dataSize];
+
+        }
+    }
+}
+

@@ -8,7 +8,8 @@
 
 class RadixSort: public AlgorithmStrategy {
 public:
-    void Execute();
+    RadixSort():AlgorithmStrategy(){sortTitle = "RADIX SORT: ";}
+    void Execute(int* dataSet,int size, string name);
 private:
     int getMax(int arr[], int n);
     void countSort(int arr[], int n, int exp);

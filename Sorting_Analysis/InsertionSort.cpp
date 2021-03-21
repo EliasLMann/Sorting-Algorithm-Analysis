@@ -5,23 +5,18 @@
 // C++ program for insertion sort
 #include "InsertionSort.h"
 
-void InsertionSort::Execute() {
-//sorting and saving the time elapsed for every dataset (except those with size of 1,000,000 to a vector)
-    for(int i = 0; i < mDatasets.size() ; i++){
-        if(mDatasets.at(i).size < 1000000){
-            //saving the time before sorting occurs
-            tmr::high_resolution_clock::time_point start = std::chrono::high_resolution_clock::now();
-            Sort(mDatasets.at(i).data, mDatasets.at(i).size);
-            //saving  time after sorting occurs
-            tmr::high_resolution_clock::time_point stop = std::chrono::high_resolution_clock::now();
-            //subtracting start time from end time to find thee time elapsed
-            tmr::duration<float> timeElapsed = tmr::duration_cast<tmr::duration<float>>(stop-start);
-            //add the name of the given dataset and the time taken to sort to a vector
-            mSortTimes.emplace(mDatasets.at(i).name, timeElapsed.count());
-        }
+void InsertionSort::Execute(int* dataSet,int size, string name) {
+    if(size < 1000000){
+        //saving the time before sorting occurs
+        tmr::high_resolution_clock::time_point start = std::chrono::high_resolution_clock::now();
+        Sort(dataSet, size);
+        //saving  time after sorting occurs
+        tmr::high_resolution_clock::time_point stop = std::chrono::high_resolution_clock::now();
+        //subtracting start time from end time to find the time elapsed
+        tmr::duration<float> timeElapsed = tmr::duration_cast<tmr::duration<float>>(stop-start);
+        //add the name of the given dataset and the time taken to sort to a vector
+        mSortTimes.emplace(name, timeElapsed.count());
     }
-    //adding the name of the sorting algorithm which will be emplaced in the end of the map
-    mSortTimes.emplace("INSERTION SORT:", 0);
 }
 
 /* Function to sort an array using insertion sort*/
