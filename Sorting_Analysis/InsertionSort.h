@@ -8,7 +8,7 @@
 #include "AlgorithmStrategy.h"
 class InsertionSort: public AlgorithmStrategy{
 public:
-    InsertionSort():AlgorithmStrategy(){sortTitle = "INSERTION SORT: ";}
+    InsertionSort():AlgorithmStrategy(){sortTitle = "INSERTION SORT";}
     void Execute(int* dataSet,int size, string name);
 private:
     void Sort(int *arr, int size);

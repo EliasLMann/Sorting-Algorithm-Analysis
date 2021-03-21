@@ -37,5 +37,7 @@ int main() {
         sortingAlgos[i]->Stats();
     }
 
+    quick->Handoff(insertion,50);
+
     return 0;
 }

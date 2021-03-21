@@ -8,7 +8,7 @@
 
 class HeapSort: public AlgorithmStrategy {
 public:
-    HeapSort():AlgorithmStrategy(){sortTitle = "HEAP SORT: ";}
+    HeapSort():AlgorithmStrategy(){sortTitle = "HEAP SORT";}
     void Execute(int* dataSet,int size, string name);
 private:
     void Sort(int *arr, int n);

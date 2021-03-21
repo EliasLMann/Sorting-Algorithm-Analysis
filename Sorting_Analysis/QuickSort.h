@@ -8,7 +8,7 @@
 
 class QuickSort : public AlgorithmStrategy{
 public:
-    QuickSort():AlgorithmStrategy(){sortTitle = "QUICK SORT: ";}
+    QuickSort():AlgorithmStrategy(){sortTitle = "QUICK SORT";}
     void Execute(int* dataSet,int size, string name);
 private:
     void Sort(int* arr, int size);

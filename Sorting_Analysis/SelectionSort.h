@@ -8,7 +8,7 @@
 
 class SelectionSort: public AlgorithmStrategy {
 public:
-    SelectionSort():AlgorithmStrategy(){sortTitle = "SELECTION SORT: ";}
+    SelectionSort():AlgorithmStrategy(){sortTitle = "SELECTION SORT";}
     void Execute(int* dataSet,int size, string name);
 private:
     void Sort(int* arr, int size);

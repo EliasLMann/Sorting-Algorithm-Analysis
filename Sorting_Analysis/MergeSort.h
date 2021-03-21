@@ -8,7 +8,7 @@
 
 class MergeSort: public AlgorithmStrategy {
 public:
-    MergeSort():AlgorithmStrategy(){sortTitle = "MERGE SORT: ";}
+    MergeSort():AlgorithmStrategy(){sortTitle = "MERGE SORT";}
     void Execute(int* dataSet,int size, string name);
 private:
     void merge(int arr[], int l, int m, int r);

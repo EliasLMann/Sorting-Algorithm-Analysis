@@ -8,7 +8,7 @@
 
 class RadixSort: public AlgorithmStrategy {
 public:
-    RadixSort():AlgorithmStrategy(){sortTitle = "RADIX SORT: ";}
+    RadixSort():AlgorithmStrategy(){sortTitle = "RADIX SORT";}
     void Execute(int* dataSet,int size, string name);
 private:
     int getMax(int arr[], int n);
