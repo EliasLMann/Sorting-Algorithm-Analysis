@@ -83,19 +83,64 @@ CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/AlgorithmStrategy.cpp -o CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.s
 
+CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o: CMakeFiles/Sorting_Analysis.dir/flags.make
+CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o: ../SelectionSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o -c /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/SelectionSort.cpp
+
+CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/SelectionSort.cpp > CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.i
+
+CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/SelectionSort.cpp -o CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.s
+
+CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o: CMakeFiles/Sorting_Analysis.dir/flags.make
+CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o: ../Swap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o -c /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/Swap.cpp
+
+CMakeFiles/Sorting_Analysis.dir/Swap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorting_Analysis.dir/Swap.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/Swap.cpp > CMakeFiles/Sorting_Analysis.dir/Swap.cpp.i
+
+CMakeFiles/Sorting_Analysis.dir/Swap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorting_Analysis.dir/Swap.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/Swap.cpp -o CMakeFiles/Sorting_Analysis.dir/Swap.cpp.s
+
+CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o: CMakeFiles/Sorting_Analysis.dir/flags.make
+CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o: ../QuickSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o -c /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/QuickSort.cpp
+
+CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/QuickSort.cpp > CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.i
+
+CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/QuickSort.cpp -o CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.s
+
 # Object files for target Sorting_Analysis
 Sorting_Analysis_OBJECTS = \
 "CMakeFiles/Sorting_Analysis.dir/main.cpp.o" \
-"CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o"
+"CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o" \
+"CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o" \
+"CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o" \
+"CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o"
 
 # External object files for target Sorting_Analysis
 Sorting_Analysis_EXTERNAL_OBJECTS =
 
 Sorting_Analysis: CMakeFiles/Sorting_Analysis.dir/main.cpp.o
 Sorting_Analysis: CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o
+Sorting_Analysis: CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o
+Sorting_Analysis: CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o
+Sorting_Analysis: CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o
 Sorting_Analysis: CMakeFiles/Sorting_Analysis.dir/build.make
 Sorting_Analysis: CMakeFiles/Sorting_Analysis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Sorting_Analysis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Sorting_Analysis"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sorting_Analysis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -18,6 +18,11 @@ def create_dataset(size):
 
     #creating a csv file with 70% of the size sorted and 30% percent randomized
     rand_30= open(file_base + "Sort30.csv", "w")
+
+    #writing filename and size of file
+    rand_30.write(str(size)+ "Sort30"+",");
+    rand_30.write(str(size)+",");
+
     for x in range(int(size * .7)):
         rand_30.write(str(x)+",")
     for y in range(int(size * .3)):
@@ -27,12 +32,22 @@ def create_dataset(size):
     #reversing thelist of unique values and printing to a csv file
     sizeList.reverse()
     rev_sorted = open(file_base + "RevSorted.csv", "w")
+
+    #writing filename and size of file
+    rev_sorted.write(str(size)+ "RevSorted"+",");
+    rev_sorted.write(str(size)+",");
+
     for x in sizeList:
         rev_sorted.write(str(x)+",")
     rev_sorted.close()
 
     #creating a csv file of random numbers of the given dataset size
     rand = open(file_base + "Rand.csv", "w")
+
+    #writing filename and size of file
+    rand.write(str(size)+ "Rand"+",");
+    rand.write(str(size)+",");
+
     for x in range(size):
         rand.write(str(random.randint(0,(size * 10)))+",")
     rand.close()
@@ -40,6 +55,11 @@ def create_dataset(size):
     #creating a csv file with random numbers of the given dataset size from a list of unique numbers that is 
     #20% the size of the dataset
     percent_20 = open(file_base + "Unique20.csv", "w")
+
+    #writing filename and size of file
+    percent_20.write(str(size)+ "Unique20"+",");
+    percent_20.write(str(size)+",");
+
     for x in range(5):
         random.shuffle(percent20List)
         for element in percent20List:

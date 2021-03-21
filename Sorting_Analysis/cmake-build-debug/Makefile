@@ -150,6 +150,87 @@ AlgorithmStrategy.cpp.s:
 	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.s
 .PHONY : AlgorithmStrategy.cpp.s
 
+QuickSort.o: QuickSort.cpp.o
+
+.PHONY : QuickSort.o
+
+# target to build an object file
+QuickSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o
+.PHONY : QuickSort.cpp.o
+
+QuickSort.i: QuickSort.cpp.i
+
+.PHONY : QuickSort.i
+
+# target to preprocess a source file
+QuickSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.i
+.PHONY : QuickSort.cpp.i
+
+QuickSort.s: QuickSort.cpp.s
+
+.PHONY : QuickSort.s
+
+# target to generate assembly for a file
+QuickSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.s
+.PHONY : QuickSort.cpp.s
+
+SelectionSort.o: SelectionSort.cpp.o
+
+.PHONY : SelectionSort.o
+
+# target to build an object file
+SelectionSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o
+.PHONY : SelectionSort.cpp.o
+
+SelectionSort.i: SelectionSort.cpp.i
+
+.PHONY : SelectionSort.i
+
+# target to preprocess a source file
+SelectionSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.i
+.PHONY : SelectionSort.cpp.i
+
+SelectionSort.s: SelectionSort.cpp.s
+
+.PHONY : SelectionSort.s
+
+# target to generate assembly for a file
+SelectionSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.s
+.PHONY : SelectionSort.cpp.s
+
+Swap.o: Swap.cpp.o
+
+.PHONY : Swap.o
+
+# target to build an object file
+Swap.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o
+.PHONY : Swap.cpp.o
+
+Swap.i: Swap.cpp.i
+
+.PHONY : Swap.i
+
+# target to preprocess a source file
+Swap.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/Swap.cpp.i
+.PHONY : Swap.cpp.i
+
+Swap.s: Swap.cpp.s
+
+.PHONY : Swap.s
+
+# target to generate assembly for a file
+Swap.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/Swap.cpp.s
+.PHONY : Swap.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +270,15 @@ help:
 	@echo "... AlgorithmStrategy.o"
 	@echo "... AlgorithmStrategy.i"
 	@echo "... AlgorithmStrategy.s"
+	@echo "... QuickSort.o"
+	@echo "... QuickSort.i"
+	@echo "... QuickSort.s"
+	@echo "... SelectionSort.o"
+	@echo "... SelectionSort.i"
+	@echo "... SelectionSort.s"
+	@echo "... Swap.o"
+	@echo "... Swap.i"
+	@echo "... Swap.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

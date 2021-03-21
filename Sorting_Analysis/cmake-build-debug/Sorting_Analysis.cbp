@@ -86,6 +86,24 @@
 		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/AlgorithmStrategy.h">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/QuickSort.cpp">
+			<Option target="Sorting_Analysis"/>
+		</Unit>
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/QuickSort.h">
+			<Option target="Sorting_Analysis"/>
+		</Unit>
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/SelectionSort.cpp">
+			<Option target="Sorting_Analysis"/>
+		</Unit>
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/SelectionSort.h">
+			<Option target="Sorting_Analysis"/>
+		</Unit>
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/Swap.cpp">
+			<Option target="Sorting_Analysis"/>
+		</Unit>
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/Swap.h">
+			<Option target="Sorting_Analysis"/>
+		</Unit>
 		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/main.cpp">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
