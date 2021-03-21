@@ -98,6 +98,12 @@
 		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/InsertionSort.h">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/MergeSort.cpp">
+			<Option target="Sorting_Analysis"/>
+		</Unit>
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/MergeSort.h">
+			<Option target="Sorting_Analysis"/>
+		</Unit>
 		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/QuickSort.cpp">
 			<Option target="Sorting_Analysis"/>
 		</Unit>

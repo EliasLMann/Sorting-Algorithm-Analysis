@@ -13,6 +13,10 @@ CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.o
  /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/AlgorithmStrategy.h
  /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/InsertionSort.cpp
  /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/InsertionSort.h
+CMakeFiles/Sorting_Analysis.dir/MergeSort.cpp.o
+ /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/AlgorithmStrategy.h
+ /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/MergeSort.cpp
+ /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/MergeSort.h
 CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o
  /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/AlgorithmStrategy.h
  /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/QuickSort.cpp
@@ -30,6 +34,7 @@ CMakeFiles/Sorting_Analysis.dir/main.cpp.o
  /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/AlgorithmStrategy.h
  /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/HeapSort.h
  /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/InsertionSort.h
+ /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/MergeSort.h
  /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/QuickSort.h
  /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/SelectionSort.h
  /Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/main.cpp

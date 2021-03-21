@@ -204,6 +204,33 @@ InsertionSort.cpp.s:
 	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.s
 .PHONY : InsertionSort.cpp.s
 
+MergeSort.o: MergeSort.cpp.o
+
+.PHONY : MergeSort.o
+
+# target to build an object file
+MergeSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/MergeSort.cpp.o
+.PHONY : MergeSort.cpp.o
+
+MergeSort.i: MergeSort.cpp.i
+
+.PHONY : MergeSort.i
+
+# target to preprocess a source file
+MergeSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/MergeSort.cpp.i
+.PHONY : MergeSort.cpp.i
+
+MergeSort.s: MergeSort.cpp.s
+
+.PHONY : MergeSort.s
+
+# target to generate assembly for a file
+MergeSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/MergeSort.cpp.s
+.PHONY : MergeSort.cpp.s
+
 QuickSort.o: QuickSort.cpp.o
 
 .PHONY : QuickSort.o
@@ -330,6 +357,9 @@ help:
 	@echo "... InsertionSort.o"
 	@echo "... InsertionSort.i"
 	@echo "... InsertionSort.s"
+	@echo "... MergeSort.o"
+	@echo "... MergeSort.i"
+	@echo "... MergeSort.s"
 	@echo "... QuickSort.o"
 	@echo "... QuickSort.i"
 	@echo "... QuickSort.s"

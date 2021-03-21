@@ -30,23 +30,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5914a65-7b2f-494d-bb18-c1abd00172c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HeapSort.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HeapSort.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MergeSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MergeSort.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sorting_Analysis" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sorting_Analysis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sorting_Analysis.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sorting_Analysis.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -100,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616200930142</updated>
-      <workItem from="1616200934382" duration="23050000" />
+      <workItem from="1616200934382" duration="23948000" />
     </task>
     <servers />
   </component>
@@ -122,10 +117,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="663" y="288" key="#com.intellij.ide.util.MemberChooser" timestamp="1616298075804">
+    <state x="663" y="288" key="#com.intellij.ide.util.MemberChooser" timestamp="1616298947778">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="663" y="288" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616298075804" />
+    <state x="663" y="288" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616298947778" />
     <state width="1398" height="308" key="GridCell.Tab.0.bottom" timestamp="1616298249636">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -169,8 +164,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>11</line>
-          <option name="timeStamp" value="18" />
+          <line>13</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
