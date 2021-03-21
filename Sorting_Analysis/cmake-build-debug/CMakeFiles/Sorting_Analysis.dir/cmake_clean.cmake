@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o"
+  "CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.o"
   "CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o"
   "CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o"
   "CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o"

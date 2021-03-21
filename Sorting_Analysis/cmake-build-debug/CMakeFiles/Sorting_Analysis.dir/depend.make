@@ -4,6 +4,10 @@
 CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o: ../AlgorithmStrategy.cpp
 CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o: ../AlgorithmStrategy.h
 
+CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.o: ../AlgorithmStrategy.h
+CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.o: ../InsertionSort.cpp
+CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.o: ../InsertionSort.h
+
 CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o: ../AlgorithmStrategy.h
 CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o: ../QuickSort.cpp
 CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o: ../QuickSort.h
@@ -18,6 +22,7 @@ CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o: ../Swap.cpp
 CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o: ../Swap.h
 
 CMakeFiles/Sorting_Analysis.dir/main.cpp.o: ../AlgorithmStrategy.h
+CMakeFiles/Sorting_Analysis.dir/main.cpp.o: ../InsertionSort.h
 CMakeFiles/Sorting_Analysis.dir/main.cpp.o: ../QuickSort.h
 CMakeFiles/Sorting_Analysis.dir/main.cpp.o: ../SelectionSort.h
 CMakeFiles/Sorting_Analysis.dir/main.cpp.o: ../main.cpp

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/AlgorithmStrategy.cpp" "/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o"
+  "/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/InsertionSort.cpp" "/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.o"
   "/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/QuickSort.cpp" "/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o"
   "/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/SelectionSort.cpp" "/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o"
   "/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/Swap.cpp" "/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o"

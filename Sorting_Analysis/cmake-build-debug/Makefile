@@ -150,6 +150,33 @@ AlgorithmStrategy.cpp.s:
 	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.s
 .PHONY : AlgorithmStrategy.cpp.s
 
+InsertionSort.o: InsertionSort.cpp.o
+
+.PHONY : InsertionSort.o
+
+# target to build an object file
+InsertionSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.o
+.PHONY : InsertionSort.cpp.o
+
+InsertionSort.i: InsertionSort.cpp.i
+
+.PHONY : InsertionSort.i
+
+# target to preprocess a source file
+InsertionSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.i
+.PHONY : InsertionSort.cpp.i
+
+InsertionSort.s: InsertionSort.cpp.s
+
+.PHONY : InsertionSort.s
+
+# target to generate assembly for a file
+InsertionSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.s
+.PHONY : InsertionSort.cpp.s
+
 QuickSort.o: QuickSort.cpp.o
 
 .PHONY : QuickSort.o
@@ -270,6 +297,9 @@ help:
 	@echo "... AlgorithmStrategy.o"
 	@echo "... AlgorithmStrategy.i"
 	@echo "... AlgorithmStrategy.s"
+	@echo "... InsertionSort.o"
+	@echo "... InsertionSort.i"
+	@echo "... InsertionSort.s"
 	@echo "... QuickSort.o"
 	@echo "... QuickSort.i"
 	@echo "... QuickSort.s"

@@ -30,45 +30,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5914a65-7b2f-494d-bb18-c1abd00172c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/QuickSort.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickSort.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SelectionSort.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SelectionSort.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Swap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Swap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataGen.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataGen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InsertionSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InsertionSort.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorithmStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmStrategy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorithmStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmStrategy.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/1000000Rand.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/1000000Rand.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/1000000RevSorted.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/1000000RevSorted.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/1000000Sort30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/1000000Sort30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/1000000Unique20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/1000000Unique20.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/100000Rand.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/100000Rand.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/100000RevSorted.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/100000RevSorted.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/100000Sort30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/100000Sort30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/100000Unique20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/100000Unique20.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/10000Rand.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/10000Rand.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/10000RevSorted.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/10000RevSorted.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/10000Sort30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/10000Sort30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/10000Unique20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/10000Unique20.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/1000Rand.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/1000Rand.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/1000RevSorted.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/1000RevSorted.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/1000Sort30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/1000Sort30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/1000Unique20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/1000Unique20.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/10Rand.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/10Rand.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/10RevSorted.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/10RevSorted.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/10Sort30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/10Sort30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/10Unique20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/10Unique20.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/QuickSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelectionSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SelectionSort.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/progress.make" afterDir="false" />
@@ -128,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616200930142</updated>
-      <workItem from="1616200934382" duration="18529000" />
+      <workItem from="1616200934382" duration="22448000" />
     </task>
     <servers />
   </component>
@@ -150,42 +126,42 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="663" y="288" key="#com.intellij.ide.util.MemberChooser" timestamp="1616289441870">
+    <state x="663" y="288" key="#com.intellij.ide.util.MemberChooser" timestamp="1616291743727">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="663" y="288" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616289441870" />
-    <state width="1398" height="30" key="GridCell.Tab.0.bottom" timestamp="1616288411349">
+    <state x="663" y="288" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616291743727" />
+    <state width="1398" height="308" key="GridCell.Tab.0.bottom" timestamp="1616297223084">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="30" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616288411349" />
-    <state width="1398" height="30" key="GridCell.Tab.0.center" timestamp="1616288411348">
+    <state width="1398" height="308" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616297223084" />
+    <state width="1398" height="308" key="GridCell.Tab.0.center" timestamp="1616297223082">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="30" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616288411348" />
-    <state width="1398" height="30" key="GridCell.Tab.0.left" timestamp="1616288411347">
+    <state width="1398" height="308" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616297223082" />
+    <state width="1398" height="308" key="GridCell.Tab.0.left" timestamp="1616297223081">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="30" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616288411347" />
-    <state width="1398" height="30" key="GridCell.Tab.0.right" timestamp="1616288411349">
+    <state width="1398" height="308" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616297223081" />
+    <state width="1398" height="308" key="GridCell.Tab.0.right" timestamp="1616297223083">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="30" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616288411349" />
-    <state width="1398" height="339" key="GridCell.Tab.1.bottom" timestamp="1616288417572">
+    <state width="1398" height="308" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616297223083" />
+    <state width="1398" height="308" key="GridCell.Tab.1.bottom" timestamp="1616297228063">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="339" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616288417572" />
-    <state width="1398" height="339" key="GridCell.Tab.1.center" timestamp="1616288417570">
+    <state width="1398" height="308" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616297228063" />
+    <state width="1398" height="308" key="GridCell.Tab.1.center" timestamp="1616297228061">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="339" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616288417570" />
-    <state width="1398" height="339" key="GridCell.Tab.1.left" timestamp="1616288417569">
+    <state width="1398" height="308" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616297228061" />
+    <state width="1398" height="308" key="GridCell.Tab.1.left" timestamp="1616297228060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="339" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616288417569" />
-    <state width="1398" height="339" key="GridCell.Tab.1.right" timestamp="1616288417571">
+    <state width="1398" height="308" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616297228060" />
+    <state width="1398" height="308" key="GridCell.Tab.1.right" timestamp="1616297228062">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="339" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616288417571" />
+    <state width="1398" height="308" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616297228062" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -194,16 +170,6 @@
           <url>file://$PROJECT_DIR$/AlgorithmStrategy.cpp</url>
           <line>16</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/QuickSort.cpp</url>
-          <line>10</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/QuickSort.cpp</url>
-          <line>19</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

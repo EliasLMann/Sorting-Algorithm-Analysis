@@ -1,14 +1,15 @@
 //
 // Created by Elias Mann on 3/20/21.
 //
-
+//
+// Code taken from https://www.geeksforgeeks.org/cpp-program-for-quicksort/
 #include "QuickSort.h"
 #include "Swap.h"
 #include <cstdlib>
 
 void QuickSort::Execute() {
     //sorting and saving the time elapsed for every dataset
-    for(int i = 0; mDatasets.size() ; i++){
+    for(int i = 0; i < mDatasets.size() ; i++){
         //saving the time before sorting occurs
         tmr::high_resolution_clock::time_point start = std::chrono::high_resolution_clock::now();
         Sort(mDatasets.at(i).data, mDatasets.at(i).size);

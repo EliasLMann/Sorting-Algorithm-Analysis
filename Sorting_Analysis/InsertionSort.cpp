@@ -1,13 +1,12 @@
 //
 // Created by Elias Mann on 3/20/21.
 //
+// Code from https://www.geeksforgeeks.org/insertion-sort/
+// C++ program for insertion sort
+#include "InsertionSort.h"
 
-#include "SelectionSort.h"
-#include "Swap.h"
-
-
-void SelectionSort::Execute() {
-    //sorting and saving the time elapsed for every dataset (except those with size of 1,000,000 to a vector)
+void InsertionSort::Execute() {
+//sorting and saving the time elapsed for every dataset (except those with size of 1,000,000 to a vector)
     for(int i = 0; i < mDatasets.size() ; i++){
         if(mDatasets.at(i).size < 1000000){
             //saving the time before sorting occurs
@@ -23,18 +22,21 @@ void SelectionSort::Execute() {
     }
 }
 
-void SelectionSort::Sort(int *arr, int size) {
-    int i, j, min_idx;
-    // One by one move boundary of unsorted subarray
-    for (i = 0; i < size-1; i++){
-        // Find the minimum element in unsorted array
-        min_idx = i;
-        for (j = i+1; j < size; j++) {
-            if (arr[j] < arr[min_idx]) {
-                min_idx = j;
-            }
+/* Function to sort an array using insertion sort*/
+void InsertionSort::Sort(int *arr, int size) {
+    int i, key, j;
+
+    for (i = 1; i < size; i++){
+        key = arr[i];
+        j = i - 1;
+        /* Move elements of arr[0..i-1], that are
+        greater than key, to one position ahead
+        of their current position */
+        while (j >= 0 && arr[j] > key){
+            arr[j + 1] = arr[j];
+            j = j - 1;
         }
-        // Swap the found minimum element with the first element
-        Swap(&arr[min_idx], &arr[i]);
+        arr[j + 1] = key;
     }
 }
+// This is code is contributed by rathbhupendra
