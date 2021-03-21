@@ -4,11 +4,12 @@
 #include "InsertionSort.h"
 #include "HeapSort.h"
 #include "MergeSort.h"
+#include "RadixSort.h"
 
 const string DATASET_PATH = "/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/Datasets";
 
 int main() {
-    MergeSort test;
+    RadixSort test;
     test.Load(DATASET_PATH);
     test.Execute();
     return 0;
