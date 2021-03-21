@@ -80,55 +80,55 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/AlgorithmStrategy.cpp">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/AlgorithmStrategy.cpp">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/AlgorithmStrategy.h">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/AlgorithmStrategy.h">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/HeapSort.cpp">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/HeapSort.cpp">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/HeapSort.h">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/HeapSort.h">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/InsertionSort.cpp">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/InsertionSort.cpp">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/InsertionSort.h">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/InsertionSort.h">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/MergeSort.cpp">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/MergeSort.cpp">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/MergeSort.h">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/MergeSort.h">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/QuickSort.cpp">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/QuickSort.cpp">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/QuickSort.h">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/QuickSort.h">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/RadixSort.cpp">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/RadixSort.cpp">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/RadixSort.h">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/RadixSort.h">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/SelectionSort.cpp">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/SelectionSort.cpp">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/SelectionSort.h">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/SelectionSort.h">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/Swap.cpp">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/Swap.cpp">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/Swap.h">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/Swap.h">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
-		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/main.cpp">
+		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/src/main.cpp">
 			<Option target="Sorting_Analysis"/>
 		</Unit>
 		<Unit filename="/Users/eliasmann/Desktop/Algorithms/21s-pa02-EliasLMann/Sorting_Analysis/CMakeLists.txt">

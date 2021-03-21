@@ -123,248 +123,248 @@ Sorting_Analysis/fast:
 	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/build
 .PHONY : Sorting_Analysis/fast
 
-AlgorithmStrategy.o: AlgorithmStrategy.cpp.o
+src/AlgorithmStrategy.o: src/AlgorithmStrategy.cpp.o
 
-.PHONY : AlgorithmStrategy.o
-
-# target to build an object file
-AlgorithmStrategy.cpp.o:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o
-.PHONY : AlgorithmStrategy.cpp.o
-
-AlgorithmStrategy.i: AlgorithmStrategy.cpp.i
-
-.PHONY : AlgorithmStrategy.i
-
-# target to preprocess a source file
-AlgorithmStrategy.cpp.i:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.i
-.PHONY : AlgorithmStrategy.cpp.i
-
-AlgorithmStrategy.s: AlgorithmStrategy.cpp.s
-
-.PHONY : AlgorithmStrategy.s
-
-# target to generate assembly for a file
-AlgorithmStrategy.cpp.s:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.s
-.PHONY : AlgorithmStrategy.cpp.s
-
-HeapSort.o: HeapSort.cpp.o
-
-.PHONY : HeapSort.o
+.PHONY : src/AlgorithmStrategy.o
 
 # target to build an object file
-HeapSort.cpp.o:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/HeapSort.cpp.o
-.PHONY : HeapSort.cpp.o
+src/AlgorithmStrategy.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/AlgorithmStrategy.cpp.o
+.PHONY : src/AlgorithmStrategy.cpp.o
 
-HeapSort.i: HeapSort.cpp.i
+src/AlgorithmStrategy.i: src/AlgorithmStrategy.cpp.i
 
-.PHONY : HeapSort.i
+.PHONY : src/AlgorithmStrategy.i
 
 # target to preprocess a source file
-HeapSort.cpp.i:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/HeapSort.cpp.i
-.PHONY : HeapSort.cpp.i
+src/AlgorithmStrategy.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/AlgorithmStrategy.cpp.i
+.PHONY : src/AlgorithmStrategy.cpp.i
 
-HeapSort.s: HeapSort.cpp.s
+src/AlgorithmStrategy.s: src/AlgorithmStrategy.cpp.s
 
-.PHONY : HeapSort.s
+.PHONY : src/AlgorithmStrategy.s
 
 # target to generate assembly for a file
-HeapSort.cpp.s:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/HeapSort.cpp.s
-.PHONY : HeapSort.cpp.s
+src/AlgorithmStrategy.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/AlgorithmStrategy.cpp.s
+.PHONY : src/AlgorithmStrategy.cpp.s
 
-InsertionSort.o: InsertionSort.cpp.o
+src/HeapSort.o: src/HeapSort.cpp.o
 
-.PHONY : InsertionSort.o
+.PHONY : src/HeapSort.o
 
 # target to build an object file
-InsertionSort.cpp.o:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.o
-.PHONY : InsertionSort.cpp.o
+src/HeapSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/HeapSort.cpp.o
+.PHONY : src/HeapSort.cpp.o
 
-InsertionSort.i: InsertionSort.cpp.i
+src/HeapSort.i: src/HeapSort.cpp.i
 
-.PHONY : InsertionSort.i
+.PHONY : src/HeapSort.i
 
 # target to preprocess a source file
-InsertionSort.cpp.i:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.i
-.PHONY : InsertionSort.cpp.i
+src/HeapSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/HeapSort.cpp.i
+.PHONY : src/HeapSort.cpp.i
 
-InsertionSort.s: InsertionSort.cpp.s
+src/HeapSort.s: src/HeapSort.cpp.s
 
-.PHONY : InsertionSort.s
+.PHONY : src/HeapSort.s
 
 # target to generate assembly for a file
-InsertionSort.cpp.s:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.s
-.PHONY : InsertionSort.cpp.s
+src/HeapSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/HeapSort.cpp.s
+.PHONY : src/HeapSort.cpp.s
 
-MergeSort.o: MergeSort.cpp.o
+src/InsertionSort.o: src/InsertionSort.cpp.o
 
-.PHONY : MergeSort.o
+.PHONY : src/InsertionSort.o
 
 # target to build an object file
-MergeSort.cpp.o:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/MergeSort.cpp.o
-.PHONY : MergeSort.cpp.o
+src/InsertionSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/InsertionSort.cpp.o
+.PHONY : src/InsertionSort.cpp.o
 
-MergeSort.i: MergeSort.cpp.i
+src/InsertionSort.i: src/InsertionSort.cpp.i
 
-.PHONY : MergeSort.i
+.PHONY : src/InsertionSort.i
 
 # target to preprocess a source file
-MergeSort.cpp.i:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/MergeSort.cpp.i
-.PHONY : MergeSort.cpp.i
+src/InsertionSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/InsertionSort.cpp.i
+.PHONY : src/InsertionSort.cpp.i
 
-MergeSort.s: MergeSort.cpp.s
+src/InsertionSort.s: src/InsertionSort.cpp.s
 
-.PHONY : MergeSort.s
+.PHONY : src/InsertionSort.s
 
 # target to generate assembly for a file
-MergeSort.cpp.s:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/MergeSort.cpp.s
-.PHONY : MergeSort.cpp.s
+src/InsertionSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/InsertionSort.cpp.s
+.PHONY : src/InsertionSort.cpp.s
 
-QuickSort.o: QuickSort.cpp.o
+src/MergeSort.o: src/MergeSort.cpp.o
 
-.PHONY : QuickSort.o
+.PHONY : src/MergeSort.o
 
 # target to build an object file
-QuickSort.cpp.o:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o
-.PHONY : QuickSort.cpp.o
+src/MergeSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/MergeSort.cpp.o
+.PHONY : src/MergeSort.cpp.o
 
-QuickSort.i: QuickSort.cpp.i
+src/MergeSort.i: src/MergeSort.cpp.i
 
-.PHONY : QuickSort.i
+.PHONY : src/MergeSort.i
 
 # target to preprocess a source file
-QuickSort.cpp.i:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.i
-.PHONY : QuickSort.cpp.i
+src/MergeSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/MergeSort.cpp.i
+.PHONY : src/MergeSort.cpp.i
 
-QuickSort.s: QuickSort.cpp.s
+src/MergeSort.s: src/MergeSort.cpp.s
 
-.PHONY : QuickSort.s
+.PHONY : src/MergeSort.s
 
 # target to generate assembly for a file
-QuickSort.cpp.s:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.s
-.PHONY : QuickSort.cpp.s
+src/MergeSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/MergeSort.cpp.s
+.PHONY : src/MergeSort.cpp.s
 
-RadixSort.o: RadixSort.cpp.o
+src/QuickSort.o: src/QuickSort.cpp.o
 
-.PHONY : RadixSort.o
+.PHONY : src/QuickSort.o
 
 # target to build an object file
-RadixSort.cpp.o:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/RadixSort.cpp.o
-.PHONY : RadixSort.cpp.o
+src/QuickSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/QuickSort.cpp.o
+.PHONY : src/QuickSort.cpp.o
 
-RadixSort.i: RadixSort.cpp.i
+src/QuickSort.i: src/QuickSort.cpp.i
 
-.PHONY : RadixSort.i
+.PHONY : src/QuickSort.i
 
 # target to preprocess a source file
-RadixSort.cpp.i:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/RadixSort.cpp.i
-.PHONY : RadixSort.cpp.i
+src/QuickSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/QuickSort.cpp.i
+.PHONY : src/QuickSort.cpp.i
 
-RadixSort.s: RadixSort.cpp.s
+src/QuickSort.s: src/QuickSort.cpp.s
 
-.PHONY : RadixSort.s
+.PHONY : src/QuickSort.s
 
 # target to generate assembly for a file
-RadixSort.cpp.s:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/RadixSort.cpp.s
-.PHONY : RadixSort.cpp.s
+src/QuickSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/QuickSort.cpp.s
+.PHONY : src/QuickSort.cpp.s
 
-SelectionSort.o: SelectionSort.cpp.o
+src/RadixSort.o: src/RadixSort.cpp.o
 
-.PHONY : SelectionSort.o
+.PHONY : src/RadixSort.o
 
 # target to build an object file
-SelectionSort.cpp.o:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o
-.PHONY : SelectionSort.cpp.o
+src/RadixSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/RadixSort.cpp.o
+.PHONY : src/RadixSort.cpp.o
 
-SelectionSort.i: SelectionSort.cpp.i
+src/RadixSort.i: src/RadixSort.cpp.i
 
-.PHONY : SelectionSort.i
+.PHONY : src/RadixSort.i
 
 # target to preprocess a source file
-SelectionSort.cpp.i:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.i
-.PHONY : SelectionSort.cpp.i
+src/RadixSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/RadixSort.cpp.i
+.PHONY : src/RadixSort.cpp.i
 
-SelectionSort.s: SelectionSort.cpp.s
+src/RadixSort.s: src/RadixSort.cpp.s
 
-.PHONY : SelectionSort.s
+.PHONY : src/RadixSort.s
 
 # target to generate assembly for a file
-SelectionSort.cpp.s:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.s
-.PHONY : SelectionSort.cpp.s
+src/RadixSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/RadixSort.cpp.s
+.PHONY : src/RadixSort.cpp.s
 
-Swap.o: Swap.cpp.o
+src/SelectionSort.o: src/SelectionSort.cpp.o
 
-.PHONY : Swap.o
+.PHONY : src/SelectionSort.o
 
 # target to build an object file
-Swap.cpp.o:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o
-.PHONY : Swap.cpp.o
+src/SelectionSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/SelectionSort.cpp.o
+.PHONY : src/SelectionSort.cpp.o
 
-Swap.i: Swap.cpp.i
+src/SelectionSort.i: src/SelectionSort.cpp.i
 
-.PHONY : Swap.i
+.PHONY : src/SelectionSort.i
 
 # target to preprocess a source file
-Swap.cpp.i:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/Swap.cpp.i
-.PHONY : Swap.cpp.i
+src/SelectionSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/SelectionSort.cpp.i
+.PHONY : src/SelectionSort.cpp.i
 
-Swap.s: Swap.cpp.s
+src/SelectionSort.s: src/SelectionSort.cpp.s
 
-.PHONY : Swap.s
+.PHONY : src/SelectionSort.s
 
 # target to generate assembly for a file
-Swap.cpp.s:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/Swap.cpp.s
-.PHONY : Swap.cpp.s
+src/SelectionSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/SelectionSort.cpp.s
+.PHONY : src/SelectionSort.cpp.s
 
-main.o: main.cpp.o
+src/Swap.o: src/Swap.cpp.o
 
-.PHONY : main.o
+.PHONY : src/Swap.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Swap.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/Swap.cpp.o
+.PHONY : src/Swap.cpp.o
 
-main.i: main.cpp.i
+src/Swap.i: src/Swap.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Swap.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Swap.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/Swap.cpp.i
+.PHONY : src/Swap.cpp.i
 
-main.s: main.cpp.s
+src/Swap.s: src/Swap.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Swap.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Swap.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/Swap.cpp.s
+.PHONY : src/Swap.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_Analysis.dir/build.make CMakeFiles/Sorting_Analysis.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -375,33 +375,33 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Sorting_Analysis"
-	@echo "... AlgorithmStrategy.o"
-	@echo "... AlgorithmStrategy.i"
-	@echo "... AlgorithmStrategy.s"
-	@echo "... HeapSort.o"
-	@echo "... HeapSort.i"
-	@echo "... HeapSort.s"
-	@echo "... InsertionSort.o"
-	@echo "... InsertionSort.i"
-	@echo "... InsertionSort.s"
-	@echo "... MergeSort.o"
-	@echo "... MergeSort.i"
-	@echo "... MergeSort.s"
-	@echo "... QuickSort.o"
-	@echo "... QuickSort.i"
-	@echo "... QuickSort.s"
-	@echo "... RadixSort.o"
-	@echo "... RadixSort.i"
-	@echo "... RadixSort.s"
-	@echo "... SelectionSort.o"
-	@echo "... SelectionSort.i"
-	@echo "... SelectionSort.s"
-	@echo "... Swap.o"
-	@echo "... Swap.i"
-	@echo "... Swap.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/AlgorithmStrategy.o"
+	@echo "... src/AlgorithmStrategy.i"
+	@echo "... src/AlgorithmStrategy.s"
+	@echo "... src/HeapSort.o"
+	@echo "... src/HeapSort.i"
+	@echo "... src/HeapSort.s"
+	@echo "... src/InsertionSort.o"
+	@echo "... src/InsertionSort.i"
+	@echo "... src/InsertionSort.s"
+	@echo "... src/MergeSort.o"
+	@echo "... src/MergeSort.i"
+	@echo "... src/MergeSort.s"
+	@echo "... src/QuickSort.o"
+	@echo "... src/QuickSort.i"
+	@echo "... src/QuickSort.s"
+	@echo "... src/RadixSort.o"
+	@echo "... src/RadixSort.i"
+	@echo "... src/RadixSort.s"
+	@echo "... src/SelectionSort.o"
+	@echo "... src/SelectionSort.i"
+	@echo "... src/SelectionSort.s"
+	@echo "... src/Swap.o"
+	@echo "... src/Swap.i"
+	@echo "... src/Swap.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

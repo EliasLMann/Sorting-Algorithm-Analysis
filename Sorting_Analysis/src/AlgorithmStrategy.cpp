@@ -61,65 +61,65 @@ void AlgorithmStrategy::Stats() {
     //printing all sizes of randomly sorted elements
     cout << "Randomly Sorted Integers:" <<endl;
     sortTimeIter = mSortTimes.find("10Rand");
-    cout << "10 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "10\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("1000Rand");
-    cout << "1,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "1,000\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("10000Rand");
-    cout << "10,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "10,000\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("100000Rand");
-    cout << "100,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "100,000\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("1000000Rand");
     //only prints the 1,000,000 element sort time if it was executed for the given  algorithm
     if(sortTimeIter != mSortTimes.end()){
-        cout << "1,000,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+        cout << "1,000,000\t" << sortTimeIter->second<< endl;
     }
 
     //printing all sizes of reverse sorted elements
     cout << endl << "Reverse Sorted Integers: " << endl;
     sortTimeIter = mSortTimes.find("10RevSorted");
-    cout << "10 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "10\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("1000RevSorted");
-    cout << "1,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "1,000\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("10000RevSorted");
-    cout << "10,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "10,000\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("100000RevSorted");
-    cout << "100,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "100,000\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("1000000RevSorted");
     //only prints the 1,000,000 element sort time if it was executed for the given  algorithm
     if(sortTimeIter != mSortTimes.end()){
-        cout << "1,000,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+        cout << "1,000,000\t" << sortTimeIter->second<< endl;
     }
 
     //printing all sizes of randomly sorted elements where 20% of the elements are unique
     cout << endl << "Randomly Sorted Where Only 20% Of Integers are Unique: " << endl;
     sortTimeIter = mSortTimes.find("10Unique20");
-    cout << "10 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "10\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("1000Unique20");
-    cout << "1,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "1,000\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("10000Unique20");
-    cout << "10,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "10,000\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("100000Unique20");
-    cout << "100,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "100,000\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("1000000Unique20");
     //only prints the 1,000,000 element sort time if it was executed for the given  algorithm
     if(sortTimeIter != mSortTimes.end()){
-        cout << "1,000,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+        cout << "1,000,000\t" << sortTimeIter->second<< endl;
     }
 
     //printing all sizes of datasets with 30% random and 70% sorted Integers
     cout << endl << "70% Sorted and 30% Randomized Integers: " << endl;
     sortTimeIter = mSortTimes.find("10Sort30");
-    cout << "10 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "10\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("1000Sort30");
-    cout << "1,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "1,000\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("10000Sort30");
-    cout << "10,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "10,000\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("100000Sort30");
-    cout << "100,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    cout << "100,000\t" << sortTimeIter->second<< endl;
     sortTimeIter = mSortTimes.find("1000000Sort30");
     //only prints the 1,000,000 element sort time if it was executed for the given  algorithm
     if(sortTimeIter != mSortTimes.end()){
-        cout << "1,000,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+        cout << "1,000,000\t" << sortTimeIter->second<< endl;
     }
     cout << endl;
 }
@@ -151,27 +151,27 @@ void AlgorithmStrategy::Handoff(AlgorithmStrategy *nextAlgo, int dataSize) {
     handoffIter1 = mSortTimes.find("10Randhandoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("10Randhandoff2");
-        cout << "10 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "10\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("1000Randhandoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("1000Randhandoff2");
-        cout << "1000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "1000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("10000Randhandoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("10000Randhandoff2");
-        cout << "10000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "10000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("100000Randhandoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("100000Randhandoff2");
-        cout << "100000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "100000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("1000000Randhandoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("1000000Randhandoff2");
-        cout << "1000000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "1000000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
 
 
@@ -180,27 +180,27 @@ void AlgorithmStrategy::Handoff(AlgorithmStrategy *nextAlgo, int dataSize) {
     handoffIter1 = mSortTimes.find("10RevSortedhandoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("10RevSortedhandoff2");
-        cout << "10 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "10\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("1000RevSortedhandoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("1000RevSortedhandoff2");
-        cout << "1000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "1000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("10000RevSortedhandoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("10000RevSortedhandoff2");
-        cout << "10000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "10000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("100000RevSortedhandoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("100000RevSortedhandoff2");
-        cout << "100000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "100000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("1000000RevSortedhandoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("1000000RevSortedhandoff2");
-        cout << "1000000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "1000000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
 
     //printing all sizes of randomly sorted elements where 20% of the elements are unique
@@ -208,27 +208,27 @@ void AlgorithmStrategy::Handoff(AlgorithmStrategy *nextAlgo, int dataSize) {
     handoffIter1 = mSortTimes.find("10Unique20handoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("10Unique20handoff2");
-        cout << "10 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "10\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("1000Unique20handoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("1000Unique20handoff2");
-        cout << "1000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "1000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("10000Unique20handoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("10000Unique20handoff2");
-        cout << "10000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "10000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("100000Unique20handoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("100000Unique20handoff2");
-        cout << "100000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "100000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("1000000Unique20handoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("1000000Unique20handoff2");
-        cout << "1000000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "1000000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
 
     //printing all sizes of datasets with 30% random and 70% sorted Integers
@@ -236,27 +236,27 @@ void AlgorithmStrategy::Handoff(AlgorithmStrategy *nextAlgo, int dataSize) {
     handoffIter1 = mSortTimes.find("10Sort30handoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("10Sort30handoff2");
-        cout << "10 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "10\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("1000Sort30handoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("1000Sort300handoff2");
-        cout << "1000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "1000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("10000Sort30handoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("10000Sort30handoff2");
-        cout << "10000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "10000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("100000Sort30handoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("100000Sort30handoff2");
-        cout << "100000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "100000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
     handoffIter1 = mSortTimes.find("1000000Sort30handoff1");
     if(handoffIter1 != mSortTimes.end()){
         handoffIter2 = mSortTimes.find("1000000Sort30handoff2");
-        cout << "1000000 Integers: " << (handoffIter1->second + handoffIter2->second) << " seconds" << endl;
+        cout << "1000000\t" << (handoffIter1->second + handoffIter2->second) << endl;
     }
 }
 

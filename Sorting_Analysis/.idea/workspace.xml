@@ -32,21 +32,54 @@
   <component name="ChangeListManager">
     <list default="true" id="f5914a65-7b2f-494d-bb18-c1abd00172c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorithmStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmStrategy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgorithmStrategy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgorithmStrategy.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HeapSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/HeapSort.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InsertionSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/InsertionSort.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MergeSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/MergeSort.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/QuickSort.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RadixSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/RadixSort.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectionSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/SelectionSort.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeapSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeapSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeapSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeapSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InsertionSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InsertionSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergeSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergeSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RadixSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/RadixSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RadixSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/RadixSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelectionSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelectionSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Swap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swap.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Swap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/HeapSort.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/InsertionSort.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/MergeSort.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/QuickSort.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/RadixSort.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/SelectionSort.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/Swap.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sorting_Analysis.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sorting_Analysis" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sorting_Analysis" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sorting_Analysis.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sorting_Analysis.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/AlgorithmStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Sorting_Analysis.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Sorting_Analysis" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Sorting_Analysis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Sorting_Analysis.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Sorting_Analysis.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting_Data_Analysis.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting_Data_Analysis.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +115,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Sorting_Analysis" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sorting_Analysis" TARGET_NAME="Sorting_Analysis" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sorting_Analysis" RUN_TARGET_NAME="Sorting_Analysis">
       <method v="2">
@@ -99,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616200930142</updated>
-      <workItem from="1616200934382" duration="46469000" />
+      <workItem from="1616200934382" duration="51487000" />
     </task>
     <servers />
   </component>
@@ -126,42 +164,42 @@
     </state>
     <state x="663" y="288" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616313845627" />
     <state x="663" y="305" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875/-1920.-38.1920.1004@0.25.1440.875" timestamp="1616345518833" />
-    <state width="1398" height="570" key="GridCell.Tab.0.bottom" timestamp="1616352269240">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1616358571816">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="570" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616352269240" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616358571816" />
     <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.-38.1920.1004@0.25.1440.875" timestamp="1616350767683" />
-    <state width="1398" height="570" key="GridCell.Tab.0.center" timestamp="1616352269239">
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1616358571815">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="570" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616352269239" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616358571815" />
     <state width="1398" height="226" key="GridCell.Tab.0.center/0.25.1440.875/-1920.-38.1920.1004@0.25.1440.875" timestamp="1616350767682" />
-    <state width="1398" height="570" key="GridCell.Tab.0.left" timestamp="1616352269238">
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1616358571814">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="570" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616352269238" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616358571814" />
     <state width="1398" height="226" key="GridCell.Tab.0.left/0.25.1440.875/-1920.-38.1920.1004@0.25.1440.875" timestamp="1616350767680" />
-    <state width="1398" height="570" key="GridCell.Tab.0.right" timestamp="1616352269239">
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1616358571815">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="570" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616352269239" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616358571815" />
     <state width="1398" height="226" key="GridCell.Tab.0.right/0.25.1440.875/-1920.-38.1920.1004@0.25.1440.875" timestamp="1616350767683" />
-    <state width="1398" height="193" key="GridCell.Tab.1.bottom" timestamp="1616310458940">
+    <state width="1398" height="300" key="GridCell.Tab.1.bottom" timestamp="1616358568428">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="193" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616310458940" />
-    <state width="1398" height="193" key="GridCell.Tab.1.center" timestamp="1616310458939">
+    <state width="1398" height="300" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616358568428" />
+    <state width="1398" height="300" key="GridCell.Tab.1.center" timestamp="1616358568417">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="193" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616310458939" />
-    <state width="1398" height="193" key="GridCell.Tab.1.left" timestamp="1616310458938">
+    <state width="1398" height="300" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616358568417" />
+    <state width="1398" height="300" key="GridCell.Tab.1.left" timestamp="1616358568416">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="193" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616310458938" />
-    <state width="1398" height="193" key="GridCell.Tab.1.right" timestamp="1616310458940">
+    <state width="1398" height="300" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616358568416" />
+    <state width="1398" height="300" key="GridCell.Tab.1.right" timestamp="1616358568419">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="193" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616310458940" />
+    <state width="1398" height="300" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616358568419" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1616351098126">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -170,5 +208,16 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="720" height="436" key="XDebugger.FullValuePopup/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616299300663" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/AlgorithmStrategy.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
