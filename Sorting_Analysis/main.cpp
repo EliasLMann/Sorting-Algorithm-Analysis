@@ -12,5 +12,6 @@ int main() {
     RadixSort test;
     test.Load(DATASET_PATH);
     test.Execute();
+    test.Stats();
     return 0;
 }

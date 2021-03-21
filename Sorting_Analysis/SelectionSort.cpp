@@ -18,9 +18,11 @@ void SelectionSort::Execute() {
             //subtracting start time from end time to find thee time elapsed
             tmr::duration<float> timeElapsed = tmr::duration_cast<tmr::duration<float>>(stop-start);
             //add the name of the given dataset and the time taken to sort to a vector
-            mSortTimes.push_back(make_pair(mDatasets.at(i).name, timeElapsed.count()));
+            mSortTimes.emplace(mDatasets.at(i).name, timeElapsed.count());
         }
     }
+    //adding the name of the sorting algorithm which will be emplaced in the end of the map
+    mSortTimes.emplace("SELECTION SORT:", 0);
 }
 
 void SelectionSort::Sort(int *arr, int size) {

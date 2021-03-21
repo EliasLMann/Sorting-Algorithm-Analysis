@@ -8,6 +8,7 @@
 #include <filesystem>
 #include <utility>
 #include <vector>
+#include <map>
 
 using namespace std;
 namespace tmr = std::chrono;
@@ -34,7 +35,7 @@ public:
     virtual void Execute() = 0;
     void Stats();
 protected:
-    vector<pair<string, const float>> mSortTimes;
+    map<string, const float> mSortTimes;
     vector<DSPack> mDatasets;
 };
 

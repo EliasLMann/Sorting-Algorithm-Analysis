@@ -33,7 +33,7 @@ void AlgorithmStrategy::Load(string path) {
             getline(currDataset, setSizeStr,',');
             int dSetSize = stoi(setSizeStr);
 
-            //declaring array of numbers with its correct size in heap
+            //declaring array of Integers with its correct size in heap
             int* data = new int[dSetSize];
 
             //adding each number from file to array
@@ -53,5 +53,75 @@ void AlgorithmStrategy::Load(string path) {
 }
 
 void AlgorithmStrategy::Stats() {
+    map<string, const float>::iterator sortTimeIter;
 
+    //setting the itereator to the last element in the map to print the name of the given sorting algorithm
+    sortTimeIter = mSortTimes.end();
+    sortTimeIter--;
+    cout << sortTimeIter->first <<endl << endl;
+
+    //printing all sizes of randomly sorted elements
+    cout << "Randomly Sorted Integers:" <<endl;
+    sortTimeIter = mSortTimes.find("10Rand");
+    cout << "10 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("1000Rand");
+    cout << "1,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("10000Rand");
+    cout << "10,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("100000Rand");
+    cout << "100,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("1000000Rand");
+    //only prints the 1,000,000 element sort time if it was executed for the given  algorithm
+    if(sortTimeIter != mSortTimes.end()){
+        cout << "1,000,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    }
+
+    //printing all sizes of reverse sorted elements
+    cout << endl << "Reverse Sorted Integers: " << endl;
+    sortTimeIter = mSortTimes.find("10RevSorted");
+    cout << "10 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("1000RevSorted");
+    cout << "1,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("10000RevSorted");
+    cout << "10,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("100000RevSorted");
+    cout << "100,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("1000000RevSorted");
+    //only prints the 1,000,000 element sort time if it was executed for the given  algorithm
+    if(sortTimeIter != mSortTimes.end()){
+        cout << "1,000,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    }
+
+    //printing all sizes of randomly sorted elements where 20% of the elements are unique
+    cout << endl << "Randomly Sorted Where Only 20% Of Integers are Unique: " << endl;
+    sortTimeIter = mSortTimes.find("10Unique20");
+    cout << "10 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("1000Unique20");
+    cout << "1,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("10000Unique20");
+    cout << "10,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("100000Unique20");
+    cout << "100,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("1000000Unique20");
+    //only prints the 1,000,000 element sort time if it was executed for the given  algorithm
+    if(sortTimeIter != mSortTimes.end()){
+        cout << "1,000,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    }
+
+    //printing all sizes of datasets with 30% random and 70% sorted Integers
+    cout << endl << "70% Sorted and 30% Randomized Integers: " << endl;
+    sortTimeIter = mSortTimes.find("10Sort30");
+    cout << "10 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("1000Sort30");
+    cout << "1,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("10000Sort30");
+    cout << "10,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("100000Sort30");
+    cout << "100,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    sortTimeIter = mSortTimes.find("1000000Sort30");
+    //only prints the 1,000,000 element sort time if it was executed for the given  algorithm
+    if(sortTimeIter != mSortTimes.end()){
+        cout << "1,000,000 Integers: " << sortTimeIter->second << " seconds" << endl;
+    }
+    cout << endl;
 }
