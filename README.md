@@ -30,7 +30,7 @@ A similar trend is evident in the reverse sorted dataset where as the dataset si
 
 The y-axis of the graph is in log scale.
 
-The data is randomly sorted with 20% unique values.
+This data looks very similar to the data for the fully random datasets, except radix and quick sort are not significantly slower for the smallest dataset. The smaller amount of unique data requires less function calling and overhead so these fucntions are still practical for small datasets. Nevertheless, the selection sort and insertion sort still had the fastest sort time for the smallest dataset due to their simplicity. Otherwise we see a similar trend as in the other datasets where the O(nlog(n)) algorithms are significantly faster than selection sort and insertions sort as dataset size increases.
 
 ### 30% Randomly Sorted Data
 ![Rand30_Table](https://user-images.githubusercontent.com/70070619/111928603-1a816000-8a82-11eb-9c34-9263efdae908.png)
@@ -38,7 +38,7 @@ The data is randomly sorted with 20% unique values.
 
 The y-axis of the graph is in log scale.
 
-The first 70% of the dataset is sorted and the remaining 30% of the data is randomly sorted.
+The first 70% of the dataset is sorted and the remaining 30% of the data is randomly sorted. In this dataset, insertion sort deviates from the trends seen in the previous datasets. Insertion sort is the fastest sorting algorithm for the dataset size of 1000 and is in the ballpark of sort times with the O(nlog(n)) algorithms for the dataset size of 10000 for the first time. While insertion sort has had very similar sorting times to selection sort in all of the other dataset types, it is significantly faster than selection sort in this dataset type. This is because insertion sort is at its best case sorting time complexity for sorted data which is O(n). Selection sort always has a sorting time complexiy of O(n^2). The other algorithms follow the same trend as in previous datasets for sorting time as dataset size increases.
 
 ### Handoff
 
@@ -56,7 +56,7 @@ The sorting time is always quicker for the handoff algorithm. As the dataset siz
 ![Handoff_Rev_Graph](https://user-images.githubusercontent.com/70070619/111929846-84e7cf80-8a85-11eb-9fb9-7694ab67efc7.png)
 ![Handoff_Rev_Table](https://user-images.githubusercontent.com/70070619/111929865-8e713780-8a85-11eb-9393-dbed6fe7431a.png)
 
-While the handoff algorithm is still always faster than the quick sort algorithm, the difference is much less significant. This is because reverse sorted order is the worst case time complexity for insertion sort. Nevertheless, the recursive nature of quick sort still causes the difference between the sorting times to increase as dataset size increasees.
+While the handoff algorithm is still always faster than the quick sort algorithm, the difference is much less significant. This is because reverse sorted order is the worst case time complexity for insertion sort. Quick sort also had its fistes sort times for the reverse sorted dataset. Nevertheless, the recursive nature of quick sort still causes the difference between the sorting times to increase as dataset size increasees.
 
 #### Randomly Sorted With 20% Unique Elements
 ![Handoff_20_Graph](https://user-images.githubusercontent.com/70070619/111929882-9df08080-8a85-11eb-8b29-56c3f220c6f0.png)
@@ -64,11 +64,12 @@ While the handoff algorithm is still always faster than the quick sort algorithm
 
 In this dataset, the data is randomly sorted with 20% unique values.
 
-The most significant difference between the two algorithms is with this dataset. That is because this is the algorithm dataset type where insertion sort performs at its personal best since it has less elements that it needs to do comparisons with.
-
+Although it is not by much, the most significant difference between the two algorithms is with this dataset. The sort times for quick sort in the dataset are not much different than the fully random dataset. The sort times for the handoff function are slightly faster for this dataset than for the fully random dataset. This is mosy likely due to the slight decrease in recursive overhead required from quick sort.
 
 #### 30% Randomly Sorted Data	
 ![Handoff_30_Graph](https://user-images.githubusercontent.com/70070619/111929895-a9dc4280-8a85-11eb-89c1-33efa53ba631.png)
 ![Handoff_30_Table](https://user-images.githubusercontent.com/70070619/111929898-ac3e9c80-8a85-11eb-8b6f-cbf697c1c653.png)
 
 In this dataset the first 70% of the dataset is sorted in order and the remaining 30% of the data is randomly sorted.
+
+Insertion sort performed the best for this type of dataset in our previous analysis. Regardless, the handoff algorithm performed similarly to previous tests. This is because the entire dataset passed over to insertion sort is random for the dataset sizes tested. The gap between handoff and quick sort was less than in the random and 20% unique datasets becuase quick sort performed faster than it did for those datsets.
