@@ -4,6 +4,9 @@ This program was made  by Elias Mann
 In this project, I am comparing the execution time of 6 diffferent sorting algorithms: Selection Sort, Insertion Sort, Quick Sort, Heap Sort, Merge Sort, and Radix Sort.
 These algorithms are tested on datasets that are: randomly sorted integers, reverse sorted integers, randomly sorted integers where 20% percent of the data is unique, and a 30% randomly sorted integers.
 The algorithms are tested on datasets of all of the previously mentioned types, with dataset sizes of :10, 1000, 10000, 100000, and 1000000.
+I am also tesing a Handoff function where the beginning of the datasets are sorted using quick sort, then the last 50 elements are sorted using insertion sort. This is tested for all dataset types with sizes: 1000, 10000, 100000, and 1000000.
+This algorithm is compared to a standard quick sort algorithm.
+
 ## Analysis Report
 ### Randomly Sorted Data
 ![Random_Data_Table](https://user-images.githubusercontent.com/70070619/111926156-b195ea00-8a79-11eb-8366-8caa244f7216.png)
@@ -28,7 +31,7 @@ A similar trend is evident in the reverse sorted dataset where as the dataset si
 The y-axis of the graph is in log scale.
 
 
-### 30% Randonly Sorted Data
+### 30% Randomly Sorted Data
 ![Rand30_Table](https://user-images.githubusercontent.com/70070619/111928603-1a816000-8a82-11eb-9c34-9263efdae908.png)
 ![Unique20_Graph](https://user-images.githubusercontent.com/70070619/111928613-22d99b00-8a82-11eb-8056-da2a3b8d7ad0.png)
 
@@ -36,4 +39,25 @@ The y-axis of the graph is in log scale.
 
 The first 70% of the dataset is sorted and theremaining 30% o fthe data is randomly sorted.
 
+### Handoff
+
+The following data represents a quick sort algorithm where the final 50 elements are sorted using insertion sort compared to a standard quick sort algorithm:
+
+#### Random
+![Handoff_Rand_Graph](https://user-images.githubusercontent.com/70070619/111929770-57028b00-8a85-11eb-9d51-11be02b2f7cd.png)
+![Handoff_Rand _Table](https://user-images.githubusercontent.com/70070619/111929780-5cf86c00-8a85-11eb-8352-33134d037deb.png)
+
+#### Reverse Sorted
+![Handoff_Rev_Graph](https://user-images.githubusercontent.com/70070619/111929846-84e7cf80-8a85-11eb-9fb9-7694ab67efc7.png)
+![Handoff_Rev_Table](https://user-images.githubusercontent.com/70070619/111929865-8e713780-8a85-11eb-9393-dbed6fe7431a.png)
+
+
+#### 20% Unique Elements
+![Handoff_20_Graph](https://user-images.githubusercontent.com/70070619/111929882-9df08080-8a85-11eb-8b29-56c3f220c6f0.png)
+![Handoff_20_Table](https://user-images.githubusercontent.com/70070619/111929878-992bcc80-8a85-11eb-8e7b-1a4dcfa74045.png)
+
+
+#### 30% Sorted
+![Handoff_30_Graph](https://user-images.githubusercontent.com/70070619/111929895-a9dc4280-8a85-11eb-89c1-33efa53ba631.png)
+![Handoff_30_Table](https://user-images.githubusercontent.com/70070619/111929898-ac3e9c80-8a85-11eb-8b6f-cbf697c1c653.png)
 
