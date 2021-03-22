@@ -41,20 +41,27 @@ The first 70% of the dataset is sorted and theremaining 30% o fthe data is rando
 
 ### Handoff
 
+For the handoff algorithm, the first portion of the dataset is sorteed using quick sort. Then last 50 elements are appended to the sorted array and then insertion sort is called on the entiree array. Insertion sort was chosen because it is at is best case sorting time for the already sorted portion of the array while selection sort os a constant sort time complexity of O(n^2).
+
 The following data represents a quick sort algorithm where the final 50 elements are sorted using insertion sort compared to a standard quick sort algorithm:
 
 #### Random
 ![Handoff_Rand_Graph](https://user-images.githubusercontent.com/70070619/111929770-57028b00-8a85-11eb-9d51-11be02b2f7cd.png)
 ![Handoff_Rand _Table](https://user-images.githubusercontent.com/70070619/111929780-5cf86c00-8a85-11eb-8352-33134d037deb.png)
 
+The sorting time is always quicker for the handoff algorithm. As the dataset size increases, the difference betweeen the two algorithms also increases at a significant rate. It seems that the diffeerence would be less significant as the dataset size increases because theportion that is handed of is proportionally smaller. This is not the case because of quick sort's recursive, divide and conquer nature. The greater the dataset size, the more the last 50 elements effect its speed because of increasing layers of recursive function calling. As we previously observed, insertion sort is the fastest algorithm for sorting small datasets.
+
 #### Reverse Sorted
 ![Handoff_Rev_Graph](https://user-images.githubusercontent.com/70070619/111929846-84e7cf80-8a85-11eb-9fb9-7694ab67efc7.png)
-![Handoff_Rev_Table](https://user-images.githubusercontent.com/70070619/111929865-8e713780-8a85-11eb-9393-dbed6fe7431a.png)
+![Handoff_Rev_Table](https://user-images.githubusercontent.com/70070619/111929865-8e713780-8a85-11eb-9393-dbed6fe7431a.png
 
+While the handoff algorithm is still always faster than the quick sort algorithm, the difference is much less significant. This is because reverse sorted order is the worst case tme complexity for insertion sort. Nevertheless, the recursive nature of quick sort still causes the difference between the sorting times to increase as dataset size increasees.
 
 #### 20% Unique Elements
 ![Handoff_20_Graph](https://user-images.githubusercontent.com/70070619/111929882-9df08080-8a85-11eb-8b29-56c3f220c6f0.png)
 ![Handoff_20_Table](https://user-images.githubusercontent.com/70070619/111929878-992bcc80-8a85-11eb-8e7b-1a4dcfa74045.png)
+
+The most significant difference between the two algorithms is with this. daataset. THis is becasue This is the algorithm dataset type where. Insertion sort performs at its personal best since it has less elements that it needs to do comparisons with.
 
 
 #### 30% Sorted
