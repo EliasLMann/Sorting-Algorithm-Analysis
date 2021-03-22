@@ -7,6 +7,7 @@ The algorithms are tested on datasets of all of the previously mentioned types, 
 I am also tesing a Handoff function where the beginning of the datasets are sorted using quick sort, then the last 50 elements are sorted using insertion sort. This is tested for all dataset types with sizes: 1000, 10000, 100000, and 1000000.
 This algorithm is compared to a standard quick sort algorithm.
 
+
 ## Analysis Report
 ### Randomly Sorted Data
 ![Random_Data_Table](https://user-images.githubusercontent.com/70070619/111926156-b195ea00-8a79-11eb-8366-8caa244f7216.png)

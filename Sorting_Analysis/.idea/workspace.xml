@@ -30,7 +30,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5914a65-7b2f-494d-bb18-c1abd00172c0" name="Default Changelist" comment="" />
+    <list default="true" id="f5914a65-7b2f-494d-bb18-c1abd00172c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Sorting_Data_Analysis.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616200930142</updated>
-      <workItem from="1616200934382" duration="53376000" />
+      <workItem from="1616200934382" duration="53522000" />
     </task>
     <servers />
   </component>
@@ -158,16 +161,5 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="720" height="436" key="XDebugger.FullValuePopup/0.0.1440.900/-1920.-63.1920.1080@0.0.1440.900" timestamp="1616299300663" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/AlgorithmStrategy.cpp</url>
-          <line>14</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
