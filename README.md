@@ -21,3 +21,19 @@ The y-axis of the graph is in log scale.
 
 A similar trend is evident in the reverse sorted dataset where as the dataset sizes increase, the sorting time is much slower for insertion and selection sort than for the rest of the algorithms. All of the algorithms have similar sort times for the dataset of size 10 except for selection sort which is slower. At the. largest dataset size, insertion is the slowest algorithm. This is because, since every element needs to be moved, reverse sorted order is the worst case for insertion sort. While it is faster than selection sort and insertion sort, heap sort is the slowest of the O(nlog(n)) algorithms by an increasingly large margin as dataset size. increases.
 
+### Randomly Sorted With 20% Unique Elements
+![Unique20_Table](https://user-images.githubusercontent.com/70070619/111928432-929b5600-8a81-11eb-89c0-381ab7e54eb8.png)
+![Unique20_Graph](https://user-images.githubusercontent.com/70070619/111928439-962edd00-8a81-11eb-9479-178a98f0a101.png)
+
+The y-axis of the graph is in log scale.
+
+
+### 30% Randonly Sorted Data
+![Rand30_Table](https://user-images.githubusercontent.com/70070619/111928603-1a816000-8a82-11eb-9c34-9263efdae908.png)
+![Unique20_Graph](https://user-images.githubusercontent.com/70070619/111928613-22d99b00-8a82-11eb-8056-da2a3b8d7ad0.png)
+
+The y-axis of the graph is in log scale.
+
+The first 70% of the dataset is sorted and theremaining 30% o fthe data is randomly sorted.
+
+
